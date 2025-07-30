@@ -9,7 +9,7 @@ import datanestLogo from './assets/datanestlogo.png';
 import './App.css';
 import { PieChart, Pie, Cell, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
-const API_URL = 'http://localhost:5000/api/items';
+const API_URL = 'https://datanest-backend.onrender.com/api/items';
 
 const Sidebar = ({ section, setSection }) => (
   <aside className="sidebar">
